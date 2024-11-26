@@ -3,8 +3,6 @@
 backupDir=("/opt" "/home/ec2-user")
 backupTarget=/tmp/backup
 
-maxBackup=3
-
 mkdir -p $backupTarget
 
 for dir in "${backupDir[@]}"; 
